@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: testapi.CreateTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.145 s <<< FAILURE! - in testapi.CreateTest
+testCreateFirstName50Char  Time elapsed: 0.392 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+Expected HTTP status code 200 
+{
+    "id": (generated),
+    "firstName" : "Christopher",
+    "lastName" : "Fitzirewielliamshiretoningstonsmytheirtonhamshires",
+    "email": "crifitz@examples.com",
+    "registerDate" : (generated, now()),
+     "updatedDate" : (generated, now())
+}
+But was 400. Response Body: {"error":"BODY_NOT_VALID","data":{"lastName":"Path `lastName` (`Fitzirewielliamshiretoningstonsmytheirtonhamshires`) is longer than the maximum allowed length (30)."}}
+	at testapi.CreateTest.testCreateFirstName50Char(CreateTest.java:91)
+
+testCreateLocationStreetIs101Char  Time elapsed: 0.367 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+Expected HTTP status code 400
+{
+    "error": "BODY_NOT_VALID"
+} 
+But was 200. Response Body: {"id":"663737df906c3a58efc6d0b9","title":"ms","firstName":"Jiyeon","lastName":"Kim","picture":"https://example.com/jiyeonkim.jpg","gender":"female","email":"jiyeoniiiee.kim@examples.com","dateOfBirth":"1990-06-12T00:00:00.000Z","phone":"+82101234567","location":{"street":"123 Yeoksam-ro, Gangnam-gu, Gangnam-gu, Gangnam-gu, Gangnam-gu, 136 Gangnam-gu. 45 Yeoksam, Yeoksi-ro","city":"Seoul","state":"","country":"South Korea","timezone":"+09:00"},"registerDate":"2024-05-05T07:40:15.970Z","updatedDate":"2024-05-05T07:40:15.970Z"}
+	at testapi.CreateTest.testCreateLocationStreetIs101Char(CreateTest.java:208)
+

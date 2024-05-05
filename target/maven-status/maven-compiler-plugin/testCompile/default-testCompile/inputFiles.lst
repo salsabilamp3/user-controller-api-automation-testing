@@ -1,8 +1,12 @@
-D:\Kuliah\Semester 6\PPL\Praktikum\Pertemuan 11\user-controller-api-automation-testing\src\test\java\request\EndPoint.java
-D:\Kuliah\Semester 6\PPL\Praktikum\Pertemuan 11\user-controller-api-automation-testing\src\test\java\request\UpdateUserEndpoint.java
-D:\Kuliah\Semester 6\PPL\Praktikum\Pertemuan 11\user-controller-api-automation-testing\src\test\java\model\User.java
-D:\Kuliah\Semester 6\PPL\Praktikum\Pertemuan 11\user-controller-api-automation-testing\src\test\java\request\CreateUserEndpoint.java
-D:\Kuliah\Semester 6\PPL\Praktikum\Pertemuan 11\user-controller-api-automation-testing\src\test\java\testapi\UpdateTest.java
-D:\Kuliah\Semester 6\PPL\Praktikum\Pertemuan 11\user-controller-api-automation-testing\src\test\java\testapi\CreateTest.java
-D:\Kuliah\Semester 6\PPL\Praktikum\Pertemuan 11\user-controller-api-automation-testing\src\test\java\model\Location.java
-D:\Kuliah\Semester 6\PPL\Praktikum\Pertemuan 11\user-controller-api-automation-testing\src\test\java\model\UserRequired.java
+D:\kuliah\Semester 6\Testing\APInew\user-controller-api-automation-testing\src\test\java\request\DeleteUserEndpoint.java
+D:\kuliah\Semester 6\Testing\APInew\user-controller-api-automation-testing\src\test\java\testapi\DeleteTest.java
+D:\kuliah\Semester 6\Testing\APInew\user-controller-api-automation-testing\src\test\java\testapi\GetTest.java
+D:\kuliah\Semester 6\Testing\APInew\user-controller-api-automation-testing\src\test\java\request\EndPoint.java
+D:\kuliah\Semester 6\Testing\APInew\user-controller-api-automation-testing\src\test\java\model\User.java
+D:\kuliah\Semester 6\Testing\APInew\user-controller-api-automation-testing\src\test\java\request\UpdateUserEndpoint.java
+D:\kuliah\Semester 6\Testing\APInew\user-controller-api-automation-testing\src\test\java\model\UserRequired.java
+D:\kuliah\Semester 6\Testing\APInew\user-controller-api-automation-testing\src\test\java\model\Location.java
+D:\kuliah\Semester 6\Testing\APInew\user-controller-api-automation-testing\src\test\java\request\CreateUserEndpoint.java
+D:\kuliah\Semester 6\Testing\APInew\user-controller-api-automation-testing\src\test\java\testapi\CreateTest.java
+D:\kuliah\Semester 6\Testing\APInew\user-controller-api-automation-testing\src\test\java\testapi\UpdateTest.java
+D:\kuliah\Semester 6\Testing\APInew\user-controller-api-automation-testing\src\test\java\request\GetUserEndpoint.java

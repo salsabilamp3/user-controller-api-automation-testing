@@ -12,6 +12,7 @@ public class User {
     private String phone;
     private String picture;
     private Location location;
+    private String updatedDate;
 
     public String getId() {
         return id;
@@ -99,6 +100,14 @@ public class User {
 
     public void setLocation(Location location) {
         this.location = location;
+    }
+
+    public String getUpdatedDate() {
+        return updatedDate;
+    }
+
+    public void setUpdatedDate(String updatedDate) {
+        this.updatedDate = updatedDate;
     }
 
 }

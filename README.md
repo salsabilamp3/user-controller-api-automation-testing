@@ -60,19 +60,19 @@ Pembuatan test case meliputi test positif dan negatif untuk setiap endpoint.
 
 #### CREATE
 ```
-1.
-2.
-3.
-4.
-5.
-```
-#### GET
-```
 1. Pemeriksaan penambahan user dengan mengatur app-id yang salah pada header request.
 2. Pemeriksaan penambahan user hanya dengan mengisikan required field, jumlah karakter firstName pada batas bawah(2) dan lastName dalam range dan email valid yang belum terdaftar di sistem.
 3. Pemeriksaan penambahan user hanya dengan mengisikan required field, jumlah karakter firstName dalam range dan lastName pada batas atas(50) dan email valid yang belum terdaftar di sistem.
 4. Pemeriksaan penambahan user dengan mengisikan semua field bukan hanya field required dengan semua field valid.
 5. Pemeriksaan penambahan user dengan mengisikan semua field benar, dan field location.street diisi 101 karakter.
+```
+#### GET
+```
+1.
+2.
+3.
+4.
+5.
 ```
 #### UPDATE
 ```

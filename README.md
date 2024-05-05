@@ -82,11 +82,11 @@ Pembuatan test case meliputi test positif dan negatif untuk setiap endpoint.
 ```
 #### GET
 ```
-1.
-2.
-3.
-4.
-5.
+1. Pemeriksaan get data user tanpa mengatur app-id pada header request
+2. Pemeriksaan get data user dengan mengatur app-id yang salah pada header request
+3. Pemeriksaan get data user dengan format id valid dan id terdaftar di sistem
+4. Pemeriksaan get data user dengan format id valid dan id tidak terdaftar di sistem
+5. Pemeriksaan get data user dengan format id yang salah
 ```
 #### UPDATE
 ```
@@ -98,11 +98,12 @@ Pembuatan test case meliputi test positif dan negatif untuk setiap endpoint.
 ```
 #### DELETE
 ```
-1.
-2.
-3.
-4.
-5.
+1. Pemeriksaan menghapus user tanpa mengatur app-id pada header request
+2. Pemeriksaan menghapus user dengan mengatur app-id yang salah pada header request
+3. Pemeriksaan menghapus user dengan format id valid dan id terdaftar di sistem
+4. Pemeriksaan menghapus user dengan format id valid dan id tidak terdaftar di sistem atau sudah terhapus sebelumnya
+5. Pemeriksaan menghapus user dengan format id yang salah
+6. Pemeriksaan menghapus user dengan mengosongkan parameter id pada endpoint
 ```
 
 ## Author

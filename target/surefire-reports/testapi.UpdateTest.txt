@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: testapi.UpdateTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.683 s - in testapi.UpdateTest
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.163 s <<< FAILURE! - in testapi.UpdateTest
+testUpdateGender  Time elapsed: 0.728 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <male>
+	at testapi.UpdateTest.testUpdateGender(UpdateTest.java:128)
+
+testUpdateNotExistedId  Time elapsed: 0.453 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <404> but was: <400>
+	at testapi.UpdateTest.testUpdateNotExistedId(UpdateTest.java:175)
+

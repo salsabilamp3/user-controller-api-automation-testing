@@ -17,13 +17,6 @@ Sebelum menjalankan project ini, perlu disiapkan environment yang sesuai.
  <li>Apache Maven 3.8.0+</li>
 </ul>
 
-## Run Code
-1. Clone repository dengan git
-   ```
-   git clone https://github.com/salsabilamp3/user-controller-api-automation-testing.git
-   ```
-   ..
-
 ## Struture Project Test
 Berikut ini merupakan struktur kode beserta penjelasannya
 ```
@@ -50,10 +43,19 @@ Berikut ini merupakan struktur kode beserta penjelasannya
 </ul>
 
 ## Run Automation Test
-1. Jalankan perintah berikut pada terminal untuk menjalankan semua test
+1. Clone repository dengan git
+   ```
+   git clone https://github.com/salsabilamp3/user-controller-api-automation-testing.git
+   ```
+2. Jalankan perintah berikut untuk menginstall artifak yang didefinisikan
+   ```
+   mvn clean install
+   ```
+3. Jalankan perintah berikut pada terminal untuk menjalankan semua test
    ```
    mvn test
    ```
+   
 
 ## Test Cases
 Pembuatan test case meliputi test positif dan negatif untuk setiap endpoint.

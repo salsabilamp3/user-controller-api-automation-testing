@@ -55,7 +55,19 @@ Berikut ini merupakan struktur kode beserta penjelasannya
    ```
    mvn test
    ```
-   
+   Untuk menjalankan test pada satu class test saja, jalankan perintah berikut
+   ```
+   mvn test -Dtest=NamaFileTest
+   ```
+    Untuk menjalankan satu method test saja, jalankan perintah berikut
+   ```
+   mvn test -Dtest=NamaFileTest#NamaMethod
+   ```
+4. Jalankan perintah berikut untuk mendapatkan hasil test report.
+   ```
+   mvn site
+   ```
+5. Hasil report dapat dilihat pada target>site>surefire-report.html dan buka dengan browser
 
 ## Test Cases
 Pembuatan test case meliputi test positif dan negatif untuk setiap endpoint.
